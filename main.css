@@ -1,0 +1,56 @@
+div#wrapper {
+    -moz-transition: opacity 0.45s ease;
+    -webkit-transition: opacity 0.45s 
+ease;
+    -ms-transition: opacity 0.45s ease;
+    transition: opacity 0.45s 
+ease;
+    opacity: 1;
+}
+
+header#header {
+    padding: 8em 0 0.1em 0;
+}
+
+.inner {
+    width: 100%;
+    max-width: 68em;
+    margin: 0 auto;
+    padding: 0 2.5em;
+}
+
+.logo {
+    display: flex !important;
+    border-bottom: 0;
+    color: inherit;
+    font-weight: 900;
+    letter-spacing: 0.35em;
+    margin: 0 0 2.5em 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    justify-content: center;
+    width: 100%;
+}
+
+img {
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 2.75em;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 0 0 1em 0;
+    letter-spacing: -0.035em;
+}
+
+header {
+    text-align: center;
+}
+
+header p {
+    margin-top: -1em;
+}
