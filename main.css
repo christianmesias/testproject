@@ -1,10 +1,8 @@
 div#wrapper {
     -moz-transition: opacity 0.45s ease;
-    -webkit-transition: opacity 0.45s 
-ease;
+    -webkit-transition: opacity 0.45s ease;
     -ms-transition: opacity 0.45s ease;
-    transition: opacity 0.45s 
-ease;
+    transition: opacity 0.45s ease;
     opacity: 1;
 }
 
@@ -56,5 +54,9 @@ header p {
 }
 
 body, h1, p, h2 {
-    font: "Source Sans Pro", Helvetica, sans-serif;;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;;
+}
+
+body .mainbody {
+    background-color: #eaeaea;
 }
