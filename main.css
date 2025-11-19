@@ -54,3 +54,7 @@ header {
 header p {
     margin-top: -1em;
 }
+
+body, h1, p, h2 {
+    font: "Source Sans Pro", Helvetica, sans-serif;;
+}
